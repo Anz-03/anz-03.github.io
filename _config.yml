@@ -61,4 +61,12 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:Anz-03/anz-03.github.io.git,master
+lazyload:
+  enable: <strong>true</strong> 
+  onlypost: <strong>false</strong>
+  loadingImg:
+search:
+  path: search.xml
+  field: post
