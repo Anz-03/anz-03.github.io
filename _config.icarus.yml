@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/avatar_e.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/favicon_m.svg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -114,7 +114,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/Anz-03/anz-03.github.io
 # Page footer configurations
 footer:
     # Copyright text
@@ -180,7 +180,7 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: ''
+        qrcode: /img/alipay.jpg
     # "Buy me a coffee" donate button configurations
     -
         type: buymeacoffee
@@ -202,7 +202,7 @@ donates:
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: ''
+        qrcode: /img/wechatpay.jpg
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
@@ -235,7 +235,7 @@ widgets:
         # Author's current location
         location: Shenzhen
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/avatar_e.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -244,21 +244,18 @@ widgets:
         follow_link: https://github.com/anz-03
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/anz-03
-            Facebook:
-                icon: fab fa-facebook
-                url: https://facebook.com
-            Twitter:
-                icon: fab fa-twitter
-                url: https://twitter.com
-            Dribbble:
-                icon: fab fa-dribbble
-                url: https://dribbble.com
-            RSS:
-                icon: fas fa-rss
-                url: /
+            Email:
+                icon: fa-solid fa-envelope
+                url: mailto:anz-03@outlook.com
+            Bilibili:
+                icon: fa-brands fa-bilibili
+                url: https://space.bilibili.com/421327777
+            Zhihu:
+                icon: fa-brands fa-zhihu
+                url: https://www.zhihu.com/people/zhou-zheng-74-67
+            Telegram:
+                icon: fa-brands fa-telegram
+                url: https://t.me/anz_o3
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -271,14 +268,14 @@ widgets:
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Hexo: https://hexo.io
+    #         Bulma: https://bulma.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -306,34 +303,34 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 
+    #     # Feedburner ID
+    #     feedburner_id: ''
+    # # Google AdSense unit configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: ''
+    #     # AdSense AD unit ID
+    #     slot_id: ''
     # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: followit
+    #     # Hint text under the email input
+    #     description: 
+    #     # Subscription form action URL
+    #     action_url: ''
+    #     # Feed claiming verification code
+    #     verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -343,52 +340,52 @@ plugins:
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
-    # Bing Webmaster Tools plugin settings
-    # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
-    # BuSuanZi site/page view counter
-    # https://busuanzi.ibruce.info
-    busuanzi: false
-    # CNZZ statistics
-    # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
-    # Alerting users about the use of cookies
-    # https://www.osano.com/cookieconsent/
-    cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
-        static: false
-        # Where on the screen the consent popup should display
-        position: bottom-left
-        # URL to your site's cookie policy
-        policyLink: https://www.cookiesandyou.com/
+    # baidu_analytics:
+    #     # Baidu Analytics tracking ID
+    #     tracking_id: 
+    # # Bing Webmaster Tools plugin settings
+    # # https://www.bing.com/toolbox/webmaster/
+    # bing_webmaster:
+    #     # Bing Webmaster Tools tracking ID in the <meta> tag
+    #     tracking_id: 
+    # # BuSuanZi site/page view counter
+    # # https://busuanzi.ibruce.info
+    # busuanzi: false
+    # # CNZZ statistics
+    # # https://www.umeng.com/web
+    # cnzz:
+    #     # CNZZ tracker id
+    #     id: 
+    #     # CNZZ website id
+    #     web_id: 
+    # # Alerting users about the use of cookies
+    # # https://www.osano.com/cookieconsent/
+    # cookie_consent:
+    #     # The compliance type. Can be "info", "opt-in", or "opt-out"
+    #     type: info
+    #     # Theme of the popup. Can be "block", "edgeless", or "classic"
+    #     theme: edgeless
+    #     # Whether the popup should stay static regardless of the page scrolls
+    #     static: false
+    #     # Where on the screen the consent popup should display
+    #     position: bottom-left
+    #     # URL to your site's cookie policy
+    #     policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
     gallery: true
     # Google Analytics plugin settings
-    # https://analytics.google.com
-    google_analytics:
-        # Google Analytics tracking ID
-        tracking_id: 
+    # # https://analytics.google.com
+    # google_analytics:
+    #     # Google Analytics tracking ID
+    #     tracking_id: 
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
-    hotjar:
-        # Hotjar site id
-        site_id: 
+    # hotjar:
+    #     # Hotjar site id
+    #     site_id: 
     # Enable the KaTeX math typesetting support
     # https://katex.org/
-    katex: false
+    katex: true
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
     mathjax: false
@@ -399,16 +396,16 @@ plugins:
     progressbar: true
     # Statcounter statistics
     # https://statcounter.com/
-    statcounter:
-        # Statcounter project id
-        project: 
-        # Statcounter project security code
-        security: 
+    # statcounter:
+    #     # Statcounter project id
+    #     project: 
+    #     # Statcounter project security code
+    #     security: 
     # Twitter conversion tracking plugin settings
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
+    # twitter_conversion_tracking:
+    #     # Twitter Pixel ID
+    #     pixel_id: 
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
