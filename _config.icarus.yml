@@ -252,18 +252,18 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/anz-03
+        # follow_link: https://github.com/anz-03
         # Links to be shown on the bottom of the profile widget
         social_links:
             Email:
                 icon: fa-solid fa-envelope
                 url: mailto:anz-03@outlook.com
+            Github:
+                icon: fa-brands fa-github
+                url: https://github.com/anz-03
             Bilibili:
                 icon: fa-brands fa-bilibili
                 url: https://space.bilibili.com/421327777
-            Zhihu:
-                icon: fa-brands fa-zhihu
-                url: https://www.zhihu.com/people/zhou-zheng-74-67
             Telegram:
                 icon: fa-brands fa-telegram
                 url: https://t.me/anz_o3
